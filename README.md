@@ -25,7 +25,7 @@ Creating a personalized README file, from input entered by user.  After answerin
 ![Github Licence](https://img.shields.io/badge/MIT-blue)
 
 ## Video of App Usage
-![watch video](./Untitled_%20Mar%207%2C%202022%207_18%20PM%20(1).webm)
+![watch video](https://drive.google.com/file/d/1-JPUvgEaovujKi3SwFqnzQtM4DLS3_nL/view)
 
 ## Contributing
 Please use contact info below to start contributing to project

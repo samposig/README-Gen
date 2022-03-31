@@ -4,7 +4,7 @@ function renderLicenseLink(license) {
   if(license !== "none") {
     return (
       //in a new line a link to the license will appear in the table of contents
-      `\n [License](#license)\n`
+      ` [License](#license)`
     )
   } else {
     return "";
@@ -13,21 +13,21 @@ function renderLicenseLink(license) {
 function renderUsageLink(usage) {
   if(usage !== "none") {
     return(
-      `\n [Usage](#usage)\n`
+      ` [Usage](#usage)`
     )
   }
 }
 function renderContributionLink(contribution) {
   if(contribution !== "none") {
     return(
-      `\n [Contribution](#contribution)\n`
+      `[Contribution](#contribution)`
     )
   }
 }
 function renderTestsLink(test) {
   if(test !== "none") {
     return(
-      `\n [Tests](#tests)\n`
+      `[Tests](#tests)`
     )
   } else {
     return "";
@@ -36,7 +36,7 @@ function renderTestsLink(test) {
 function renderQuestionsLink(questions) {
   if(questions !== "none") {
     return(
-      `\n [Questions](#Questions)\n`
+      ` [Questions](#Questions)`
     )
   } else {
     return "";
@@ -59,7 +59,6 @@ function generateMarkdown(data) {
   # ${data.title}
 
   ![Github Licence](https://img.shields.io/badge/-${data.license}-blue) 
-    
     
   ## Description
     ${data.description}
